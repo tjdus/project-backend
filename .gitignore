@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual env
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Poetry
+poetry.lock
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# MySQL dump
+*.sql
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+# Docker volumes (optional)
+volumes/
+
+# Migrations (optional if auto-generated)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.pyd
+**/migrations/*.log
+
+# Secrets
+.env.*
+secrets.env
+
+# Byte-compiled files
+*.~*
+
+# Pyright / Pylance
+typings/
+
+# Coverage / Reports
+coverage.xml
+reports/
