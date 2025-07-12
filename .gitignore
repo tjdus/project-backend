@@ -27,9 +27,7 @@ staticfiles/
 .coverage
 htmlcov/
 
-# VSCode
-.vscode/
-*.code-workspace
+.idea/
 
 # macOS
 .DS_Store
